@@ -6,20 +6,24 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1>LUDO GAME</h1>
+			<h1 class="name">LUDO GAME</h1>
+			<div id="mesg"></div>
 		</div>
 		<div class="container">
 			<div class="loadHere">
-				<div class="coin red" id="r1" data-flag="0" onclick="move(this)"></div>
-				<div class="coin red" id="r2" data-flag="0"></div>
-				<div class="coin red" id="r3" data-flag="0"></div>
-				<div class="coin red" id="r4" data-flag="0"></div>
+				<div class="coin red" id="r1" data-flag="0" data-index="8" data-block="0" data-dist="0" onclick=""></div>
+				<div class="coin red" id="r2" data-flag="0" data-index="8" data-block="0" data-dist="0" onclick=""></div>
+				<div class="coin red" id="r3" data-flag="0" data-index="8" data-block="0" data-dist="0" onclick=""></div>
+				<div class="coin red" id="r4" data-flag="0" data-index="8" data-block="0" data-dist="0" onclick=""></div>
 
-				<div class="coin yellow" id="y1" data-flag="0"></div>
-				<div class="coin yellow" id="y2" data-flag="0"></div>
-				<div class="coin yellow" id="y3" data-flag="0"></div>
-				<div class="coin yellow" id="y4" data-flag="0"></div>
+				<div class="coin yellow" id="y1" data-flag="0" data-index="0" data-block="0" data-dist="0" onclick=""></div>
+				<div class="coin yellow" id="y2" data-flag="0" data-index="0" data-block="0" data-dist="0" onclick=""></div>
+				<div class="coin yellow" id="y3" data-flag="0" data-index="0" data-block="0" data-dist="0" onclick=""></div>
+				<div class="coin yellow" id="y4" data-flag="0" data-index="0" data-block="0" data-dist="0" onclick=""></div>
 			</div>
+			<div class="dice-container" id="dice" ></div>
+			<button type="button" onclick="document.location.reload(true)">Restart</button>
+			
 		</div>
 		<script src="main.js"></script>
 		<script>

@@ -1,5 +1,13 @@
+body{
+	background-image: url('images/back.jpg');
+	background-size:100% 100%;
+
+}
 .container{
 	width:100%;
+}
+.name{
+	color:white;
 }
 .loadHere{
 	width:500px;
@@ -7,6 +15,7 @@
 	background-image:url('images/board.png');
 	background-size: 100% 100%;
 	position:relative;
+	display:inline-block;
 }
 .coin{
 	position:absolute;
@@ -14,11 +23,10 @@
 	height:20px;
 	border-radius: 50%;
 	border:1px solid black;
-
+	transition:0.7s linear;
 }
 .red{
 	background-color:red;
-
 }
 .yellow{
 	background-color:yellow;
@@ -39,8 +47,6 @@
 	top:354px;
 	left:64px;
 }
-
-
 #y1{
 	top:60px;
 	left:356px;
@@ -56,4 +62,34 @@
 #y4{
 	top:112px;
 	left:404px;
+}
+.dice-container{
+	background-image:url('images/dice1.gif');
+	background-size:80% 80%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:yellow;
+	border:2px solid black;
+	width:80px;
+	height:80px;
+	display:inline-block;
+	vertical-align:top;
+	margin:15% 16%;
+	margin-right:0;
+	margin-bottom: 0;
+}
+#mesg{
+	color:red;
+	font-size:18px;
+	height:20px;
+	width:50%;
+}
+button{
+	padding:10px 20px;
+	background-color:black;
+	color:white;
+	display:inline-block;
+	position:absolute;
+	top:350px;
+	right:21%;
 }
