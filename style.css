@@ -1,0 +1,59 @@
+.container{
+	width:100%;
+}
+.loadHere{
+	width:500px;
+	height:500px;
+	background-image:url('images/board.png');
+	background-size: 100% 100%;
+	position:relative;
+}
+.coin{
+	position:absolute;
+	width:20px;
+	height:20px;
+	border-radius: 50%;
+	border:1px solid black;
+
+}
+.red{
+	background-color:red;
+
+}
+.yellow{
+	background-color:yellow;
+}
+#r1{
+	top:405px;
+	left:111px;
+}
+#r2{
+	top:405px;
+	left:64px;
+}
+#r3{
+	top:354px;
+	left:111px;
+}
+#r4{
+	top:354px;
+	left:64px;
+}
+
+
+#y1{
+	top:60px;
+	left:356px;
+}
+#y2{
+	top:60px;
+	left:404px;
+}
+#y3{
+	top:112px;
+	left:356px;
+}
+#y4{
+	top:112px;
+	left:404px;
+}
